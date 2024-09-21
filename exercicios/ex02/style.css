@@ -59,7 +59,7 @@ nav a:hover {
 main {
     background-color: var(--cor0);
     color: #000000;
-    padding: 10px;
+    padding: 15px;
     margin: auto;
     max-width: 1000px;
     min-width: 300px;
