@@ -4,11 +4,179 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 700px;
+            border-collapse: collapse;
+            background-color: rgb(209, 209, 209);
+            margin: auto;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: #1817173b;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: rgba(53, 52, 52, 0.801);
+            color: white;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+
+
+        thead, tfoot {
+            background-color: rgb(63, 62, 62);
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        .imagem {
+            text-align: center;
+            padding: 0px;
+        }
+
+        .abr {
+            text-align: center;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
-        
+        <thead>
+            <tr>
+                <th scope="col" style="width: 50px;">
+                    Bandeira
+                </th>
+                <th scope="col" style="width: 150px;">
+                    Estado
+                </th>
+                <th scope="col" style="width: 50px;">
+                    Abreviação
+                </th>
+                <th scope="col" style="width: 110px;">
+                    População
+                </th>
+            </tr>
+            <caption>População das Unidades Federativas</caption>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_do_Acre.svg.png" alt=""></td>
+                <td>Acre</td>
+                <td class="abr">AC</td>
+                <td class="num">830 018</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_de_Alagoas.svg.png" alt=""></td>
+                <td>Alagoas</td>
+                <td class="abr">AL</td>
+                <td class="num">3 127 683</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_do_Amapá.svg.png" alt=""></td>
+                <td>Amapá</td>
+                <td class="abr">AP</td>
+                <td class="num">733 759</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_do_Amazonas.svg.png" alt=""></td>
+                <td>Amazonas</td>
+                <td class="abr">AM</td>
+                <td class="num">3 941 613</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_da_Bahia.svg.png" alt=""></td>
+                <td>Bahia</td>
+                <td class="abr">BA</td>
+                <td class="num">14 141 626</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_do_Ceará.svg.png" alt=""></td>
+                <td>Ceará</td>
+                <td class="abr">CE</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_do_Distrito_Federal_(Brasil).svg.png" alt=""></td>
+                <td>Distrito Federal</td>
+                <td class="abr">DF</td>
+                <td class="num">2 817 381</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_do_Espírito_Santo.svg.png" alt=""></td>
+                <td>Espírito Santo</td>
+                <td class="abr">ES</td>
+                <td class="num">3 833 712</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Flag_of_Goiás.svg.png" alt=""></td>
+                <td>Goiás</td>
+                <td class="abr">GO</td>
+                <td class="num">7 056 495</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_do_Maranhão.svg.png" alt=""></td>
+                <td>Maranhão</td>
+                <td class="abr">MA</td>
+                <td class="num">6 755 805</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_de_Mato_Grosso.svg.png" alt=""></td>
+                <td>Mato Grosso</td>
+                <td class="abr">MT</td>
+                <td class="num">3 658 649</td>
+            </tr>
+            <tr>
+                <td class="imagem"><img src="imagens/Bandeira_de_Mato_Grosso_do_Sul.svg.png" alt=""></td>
+                <td>Mato Grosso do Sul</td>
+                <td class="abr">MS</td>
+                <td class="num">2 757 013</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td><strong>203.080.756</strong></td>
+            </tr>
+        </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum distinctio id libero iusto, dignissimos numquam quos hic magni blanditiis non atque maiores? Eveniet, molestiae placeat. Eius atque ea quae ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo porro veniam ad placeat accusamus fuga architecto, laborum, odit veritatis praesentium a amet nisi harum tempore fugit reprehenderit perferendis fugiat! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim autem pariatur quos tenetur quo, rem ratione, magnam deserunt ipsum molestiae fuga fugit odio reiciendis sequi maiores. Omnis aliquid nemo reiciendis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum distinctio id libero iusto, dignissimos numquam quos hic magni blanditiis non atque maiores? Eveniet, molestiae placeat. Eius atque ea quae ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo porro veniam ad placeat accusamus fuga architecto, laborum, odit veritatis praesentium a amet nisi harum tempore fugit reprehenderit perferendis fugiat! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim autem pariatur quos tenetur quo, rem ratione, magnam deserunt ipsum molestiae fuga fugit odio reiciendis sequi maiores. Omnis aliquid nemo reiciendis?
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, fugit saepe porro sapiente a sequi est reprehenderit dolores rem veniam itaque eos magni vero, sed enim soluta illum incidunt maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur delectus dolore optio rerum accusantium obcaecati! Esse neque quia dolor, praesentium iste sunt ad quibusdam amet, illo totam natus laborum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi modi nostrum maxime placeat commodi vitae veniam corrupti! Quo, perferendis aspernatur quam harum dolores deserunt exercitationem facilis sed maiores necessitatibus fugit?
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt corrupti vero quas obcaecati architecto explicabo ut odit deserunt, provident inventore sint, nisi alias necessitatibus ex. Laboriosam iusto odit adipisci earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi debitis rem alias sint pariatur numquam quo, placeat maxime molestiae cumque omnis earum non quisquam blanditiis autem enim molestias voluptas corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eius reiciendis corrupti facilis, provident pariatur vero labore neque, quos doloremque voluptatibus distinctio repellendus. Nulla, tempore in culpa quae accusantium nemo!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, fugit saepe porro sapiente a sequi est reprehenderit dolores rem veniam itaque eos magni vero, sed enim soluta illum incidunt maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur delectus dolore optio rerum accusantium obcaecati! Esse neque quia dolor, praesentium iste sunt ad quibusdam amet, illo totam natus laborum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi modi nostrum maxime placeat commodi vitae veniam corrupti! Quo, perferendis aspernatur quam harum dolores deserunt exercitationem facilis sed maiores necessitatibus fugit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt corrupti vero quas obcaecati architecto explicabo ut odit deserunt, provident inventore sint, nisi alias necessitatibus ex. Laboriosam iusto odit adipisci earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi debitis rem alias sint pariatur numquam quo, placeat maxime molestiae cumque omnis earum non quisquam blanditiis autem enim molestias voluptas corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eius reiciendis corrupti facilis, provident pariatur vero labore neque, quos doloremque voluptatibus distinctio repellendus. Nulla, tempore in culpa quae accusantium nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum distinctio id libero iusto, dignissimos numquam quos hic magni blanditiis non atque maiores? Eveniet, molestiae placeat. Eius atque ea quae ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo porro veniam ad placeat accusamus fuga architecto, laborum, odit veritatis praesentium a amet nisi harum tempore fugit reprehenderit perferendis fugiat! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim autem pariatur quos tenetur quo, rem ratione, magnam deserunt ipsum molestiae fuga fugit odio reiciendis sequi maiores. Omnis aliquid nemo reiciendis?
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, fugit saepe porro sapiente a sequi est reprehenderit dolores rem veniam itaque eos magni vero, sed enim soluta illum incidunt maxime. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit tenetur delectus dolore optio rerum accusantium obcaecati! Esse neque quia dolor, praesentium iste sunt ad quibusdam amet, illo totam natus laborum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi modi nostrum maxime placeat commodi vitae veniam corrupti! Quo, perferendis aspernatur quam harum dolores deserunt exercitationem facilis sed maiores necessitatibus fugit?
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt corrupti vero quas obcaecati architecto explicabo ut odit deserunt, provident inventore sint, nisi alias necessitatibus ex. Laboriosam iusto odit adipisci earum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi debitis rem alias sint pariatur numquam quo, placeat maxime molestiae cumque omnis earum non quisquam blanditiis autem enim molestias voluptas corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eius reiciendis corrupti facilis, provident pariatur vero labore neque, quos doloremque voluptatibus distinctio repellendus. Nulla, tempore in culpa quae accusantium nemo!
+    </p>
 </body>
 </html>
