@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+:root {
+    --fonte-1: "Sofadi One", system-ui;
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #ff0000, #ff7b00);
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    text-shadow: 4px 4px 7px black;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-family: var(--fonte-1);
+    font-size: 3em;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    background-color: #ff7b00;
+    padding: 10px;
+}
+
+main {
+    background-color: rgb(253, 143, 53);
+    width: 810px;
+    margin: auto;
+}
+
+section {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+button.nav {
+    background-color: white;
+    
+    
+}
+
+button.btn {
+    background-color: rgba(243, 19, 19, 0.966);
+    color: white;
+    padding: 10px;
+    border-radius: 20pc;
+    display: block;
+    margin: auto;
+
+}
+
+button.btn:hover {
+    background-color: rgb(255, 54, 54);
+    padding: 14px;
+}
+
+ img {
+  
+ }
+
+ footer {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+ }
