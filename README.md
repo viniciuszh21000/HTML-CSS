@@ -9,4 +9,4 @@
 
 <a href="https://viniciuszh21000.github.io/HTML-CSS/exercicios/projeto/projeto01.html">Executar o exercício 03</a>
 
-<a href="https://viniciuszh21000.github.io/HTML-CSS/exercicios/ex05/index.html">Executar o exercício 04</a>
+<a href="https://viniciuszh21000.github.io/HTML-CSS/exercicios/ex005/index.html">Executar o exercício 04</a>
