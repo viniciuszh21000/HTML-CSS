@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(to bottom, #797979, #1a1a1a);
+    color: #ffffffff;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    list-style-type: none;
+}
+
+div.center {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid greenyellow;
+}
+
+fieldset {
+    box-shadow: 2px 2px 10px black;
+}
