@@ -17,7 +17,7 @@ function handleSubmit(event) {
 
   const value = document.querySelector('[name="local"]').value
 
-  getData(value).then(data = {
+  getData(value).then(data => {
     console.log(data)
     elTemperature.innerHTML = Math.floor(data.main.temp) + '°C'
     elLocal.innerHTML = data.name
