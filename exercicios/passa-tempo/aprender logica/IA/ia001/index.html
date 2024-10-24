@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Loja de Maquiagem</title>
+    <link rel="stylesheet" href="lojaAM.css">
+</head>
+<body>
+    <header>
+        <h1>A.M <br>
+        Maquiagens e Acessórios</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+                <div class="carrinho-compra">
+                <i class="bi bi-cart-plus"></i>
+        </div>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="produtos">
+        <div class="produto">
+            <img src="imagensam/base.jpeg" alt="Batom">
+            <h2>Batom Vermelho</h2><br>
+            <p>R$ 29,90</p>
+            <button onclick="adicionarAoCarrinho('Batom Vermelho', 29.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/batom.jpeg" alt="Base">
+            <h2>BASE LÍQUIDA FACE</h2>
+            <p>R$ 49,90</p>
+            <button onclick="adicionarAoCarrinho('Base Líquida', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/rimel.jpeg" alt="Base">
+            <h2>Máscara de Cílios</h2>
+            <p>R$ 49,90</p>
+            <button onclick="adicionarAoCarrinho('Base Líquida', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/fixador.jpeg" alt="Base">
+            <h2>Base Líquida</h2>
+            <p>R$ 49,90</p>
+            <button onclick="adicionarAoCarrinho('Base Líquida', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/base.jpeg" alt="Batom">
+            <h2>Batom Vermelho</h2>
+            <p>R$ 29,90</p>
+            <button onclick="adicionarAoCarrinho('Batom Vermelho', 29.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/batom.jpeg" alt="Base">
+            <h2>Base Líquida</h2>
+            <p>R$ 49,90</p>
+            <button onclick="adicionarAoCarrinho('Base Líquida', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/rimel.jpeg" alt="Base">
+            <h2>Máscara de Cílios</h2>
+            <p>R$ 49,90</p>
+            <button onclick="adicionarAoCarrinho('Base Líquida', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/fixador.jpeg" alt="Base">
+            <h2>Base Líquida</h2><br>
+            <p>R$ 49,90</p>
+            <button onclick="adicionarAoCarrinho('Base Líquida', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/base.jpeg" alt="Batom">
+            <h2>Batom Vermelho</h2> <br>
+            <p>R$ 29,90</p>
+            <button onclick="adicionarAoCarrinho('Batom Vermelho', 29.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/batom.jpeg" alt="Base">
+            <h2>Base Líquida</h2><br>
+            <p>R$ 49,90</p>
+            <button onclick="adicionarAoCarrinho('Base Líquida', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/rimel.jpeg" alt="Base">
+            <h2>Máscara de Cílios</h2>
+            <p>R$ 49,90</p>
+            <button onclick="adicionarAoCarrinho('Base Líquida', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="imagensam/fixador.jpeg" alt="Base">
+            <h2>Base Líquida</h2><br>
+            <p>R$ 49,90</p>
+            <button onclick="adicionarAoCarrinho('Base Líquida', 49.90)">Adicionar ao Carrinho</button>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+    </section>
+
+    <section id="carrinho">
+        <h2>Carrinho de Compras</h2>
+        <ul id="lista-carrinho">
+            <!-- Produtos do carrinho serão adicionados aqui -->
+        </ul>
+        <p id="total">Total: R$ 0,00</p>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Marcos Vinicius</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
