@@ -1,7 +1,11 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 body {
@@ -17,15 +21,18 @@ header h1 {
     padding: 10px;
 }
 
-header nav {
-    color: #fff;
+menu ul {
     display: flex;
 }
 
 .option {
     background-color: #494949;
-    margin: 0 5px;
     padding: 5px;
+    color: #fff;
+}
+
+.option a {
+    color: #fff;
 }
 
 .conteudo {
