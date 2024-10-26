@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="meu-form">
+        <div class="login-bem-vindo">
+            <a href="#" title="Logo">
+                <img src="imagens/logo.png" alt="logo" class="logo">
+            </a>
+            <h1>Faça Sua Conta Gratuita</h1>
+        </div>
+        <div class="social-rede">
+            <a href="#" title="use google">
+                <img src="imagens/google.png" alt="google">
+                Entre usando Google
+            </a>
+            <a href="#" title="use Face">
+                <img src="imagens/face.png" alt="Face">
+                Entre usando Facebook
+            </a>
+        </div>
+        <div class="linhas">
+            <div class="linha"></div>
+            Ou
+            <div class="linha"></div>
+        </div>
+        <div class="texto-falhado">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" autocomplete="off"
+            placeholder="exemplo@123.com" required>
+            <div class="mensagem-erro">Formato de email errado</div>
+        </div>
+        <div class="texto-falhado">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" autocomplete="off"
+            placeholder="********" required>
+            <div class="mensagem-erro">Formato de email errado</div>
+        </div>
+        <!-- Input da senha -->
+         <button type="submit" class="meu-form-button">Entrar</button>
+         <div class="meu-form-action">
+            <div class="meu-form-row">
+            <span>Não tenho uma conta?</span>
+            <a href="#" title="Criar Conta">
+                Criar Conta
+            </a>
+         </div>
+        </div>
+    </form>
+</body>
+</html>
