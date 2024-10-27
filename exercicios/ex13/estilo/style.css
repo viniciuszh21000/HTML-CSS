@@ -21,7 +21,7 @@ header h1 {
     padding: 10px;
 }
 
-i#burguer {
+i#burger {
     background-color: #646464;
     color: #ffffff;
     display: block;
@@ -30,7 +30,7 @@ i#burguer {
     cursor: pointer;
 }
 
-i#burguer:hover {
+i#burger:hover {
     background-color: #dbdbdb;
     color: #000;
 }

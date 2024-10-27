@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5f5f5f;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header nav ul {
+  display: inline-block;
+  list-style: none;
+  float: right;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Banner */
+#banner {
+  background: url('nxr-160-banner.jpg') no-repeat center center/cover;
+  height: 400px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#banner h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#banner .btn {
+  background-color: #e60012;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+/* Características */
+#caracteristicas {
+  padding: 40px 0;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.feature {
+  text-align: center;
+  width: 30%;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Especificações */
+#especificacoes {
+  padding: 40px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Versões */
+#versoes {
+  padding: 40px 0;
+}
+
+.versions {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.version {
+  background-color: #e6e6e6;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}

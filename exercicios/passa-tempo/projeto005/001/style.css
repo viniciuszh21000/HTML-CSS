@@ -1542,4 +1542,6 @@ body input[type=radio][name=planet].planet9:checked + label + input + label + in
   transform: translateZ(11500px) translateY(0) rotatex(4deg) scaleX(0.89);
   opacity: 7;
 }
-body input[type=radio][name=planet].planet9:checked + label + input + la
+body input[type=radio][name=planet].planet9:checked + label + input + label {
+  color: red;
+}
